@@ -13,7 +13,7 @@ const {
 /*const appUrl = VERCEL_URL
   ? `https://${VERCEL_GITHUB_REPO}.${VERCEL_GITHUB_ORG.toLowerCase()}.vercel.app`
   : `http://localhost:${PORT}`;*/
-const appUrl = "https://web-app-git-master-agonzalezro.vercep.app";
+const appUrl = "https://web-app-git-master-agonzalezro.vercel.app";
 
 function checkUrl() {
   return (req, res, next) => {
